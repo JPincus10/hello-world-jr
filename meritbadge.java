@@ -1,9 +1,3 @@
-//*******************************************************************
-// Welcome to CompileJava!
-// If you experience any issues, please contact us ('More Info')  -->
-// Sorry that the "Paste" feature no longer works! GitHub broke it.
-//*******************************************************************
-
 import java.lang.Math; // headers MUST be above the first class
 
 // one class needs to have a main() method
@@ -16,19 +10,3 @@ public class HelloWorld
     System.out.print(myObject);
   }
 }
-
-// you can add other public classes to this editor in any order
-public class OtherClass
-{
-  private String message;
-  private boolean answer = false;
-  public OtherClass(String input)
-  {
-    message = "Why, " + input + " Isn't this something?";
-  }
-  public String toString()
-  {
-    return message;
-  }
-}
-
